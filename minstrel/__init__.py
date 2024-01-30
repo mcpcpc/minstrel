@@ -16,7 +16,7 @@ from .settings import settings
 from .db import init_app
 from .token import init_token
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 
 async def page_not_found(e):
